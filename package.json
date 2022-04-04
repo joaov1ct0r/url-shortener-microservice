@@ -1,12 +1,13 @@
 {
   "name": "url-shortener-microservice",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sistema de Micro serviço para envio de informações pessoais sobre o client, feito em NodeJS utilizando express",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["javascript", "nodejs", "express", "microservice", "cors", "dotenv", "is-url"],
+  "author": "github.com/joaov1ct0r",
   "license": "ISC"
 }
