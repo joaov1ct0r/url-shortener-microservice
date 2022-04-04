@@ -34,4 +34,4 @@ const handleShortUrl = (req, res) => {
     else res.redirect(existedLink.original_url);
 };
 
-export { handleNewUrl };
+export { handleNewUrl, handleShortUrl };
