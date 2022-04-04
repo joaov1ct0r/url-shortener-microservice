@@ -24,3 +24,5 @@ const handleNewUrl = (req, res) => {
         return res.json(link);
     }
 };
+
+export { handleNewUrl };
