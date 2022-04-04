@@ -55,4 +55,6 @@
 
 <p>APOS TER OS ARQUIVOS EM SUA MAQUINA INICIE O SERVIDOR WEB NO SEU TERMINAL COM O COMANDO:<br><code>npm start</code></p>
 
-<p>APOS ISSO A ROTA:<br><code>localhost:3000/api/shorturl</code><br>ESTARA DISPONIVEIS PARA FAZER AS REQUISIÇÕES</p>
+<p>APOS ISSO AS ROTAS:<br><code>localhost:3000/api/shorturl</code>
+  <br><code>localhost:3000/api/shorturl/:url</code>
+  <br>ESTARÃO DISPONIVEIS PARA FAZER AS REQUISIÇÕES</p>
