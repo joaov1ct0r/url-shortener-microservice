@@ -2,6 +2,8 @@ import isUrl from 'is-url';
 
 let links = [];
 
+let id = 0;
+
 const handleNewUrl = (req, res) => {
     let { url } = req.body;
 
