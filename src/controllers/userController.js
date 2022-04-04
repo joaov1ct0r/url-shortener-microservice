@@ -1,3 +1,5 @@
+import isUrl from 'is-url';
+
 const handleNewUrl = (req, res) => {
     let { url } = req.body;
 
