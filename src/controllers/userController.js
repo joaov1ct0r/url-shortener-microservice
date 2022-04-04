@@ -25,4 +25,13 @@ const handleNewUrl = (req, res) => {
     }
 };
 
+const handleShortUrl = (req, res) => {
+    const { url } = req.params;
+
+    const existedLink = links.find(link => link.short_url === url);
+
+    if (!existedLink) return res.json({ error: 'invalid url' });
+    else res.redirect(existedLink.original_url);
+};
+
 export { handleNewUrl };
