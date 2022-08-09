@@ -4,6 +4,8 @@ import cors from "cors";
 
 import userRouter from "./routes/userRoutes.js";
 
+import swaggerUi from "swagger-ui-express";
+
 export default class App {
   public server: express.Application;
 
