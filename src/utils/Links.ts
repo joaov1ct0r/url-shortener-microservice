@@ -1,3 +1,3 @@
-const Links: string[] = [];
+const Links: object[] = [];
 
 export default Links;
