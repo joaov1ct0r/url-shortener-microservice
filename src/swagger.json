@@ -1,0 +1,44 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "File Metadata Microservice.",
+    "description": "Sistema de Micro serviço para upload de arquivos e envio de metadados em json, feito em NodeJS utilizando express.",
+    "contact": {
+      "linkedin": "https://www.linkedin.com/in/joaov1ct0r/"
+    },
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/api/shorturl/:url": {
+      "get": {
+        "summary": "Redirecionamento de URL",
+        "description": "Rota para enviar url pequena e ser redirecionado para url original."
+      },
+      "responses": {
+        "404": {
+          "description": "Not Found"
+        },
+        "400": {
+          "description": "Bad Request"
+        },
+        "200": {
+          "description": "Ok"
+        }
+      }
+    },
+    "/api/shorturl": {
+      "post": {
+        "summary": "Criação de URL",
+        "description": "Rota para criar url."
+      },
+      "responses": {
+        "400": {
+          "description": "Bad Request"
+        },
+        "201": {
+          "description": "Created"
+        }
+      }
+    }
+  }
+}
