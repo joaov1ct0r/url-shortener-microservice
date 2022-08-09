@@ -6,6 +6,8 @@ import isUrl from "is-url";
 
 import BadRequestError from "../errors/BadRequestError";
 
+import ILinks from "../interfaces/ILinks";
+
 export default class CreateNewUrlService {
   public execute(url: string): Object {
     if (!isUrl(url)) {
@@ -16,7 +18,7 @@ export default class CreateNewUrlService {
 
     id++;
 
-    const link = {
+    const link: ILinks = {
       original_url: url,
       short_url: `${id}`,
     };
