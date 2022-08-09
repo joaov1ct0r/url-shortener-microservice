@@ -6,6 +6,8 @@ import userRouter from "./routes/userRoutes.js";
 
 import swaggerUi from "swagger-ui-express";
 
+import swaggerDocs from "./swagger.json";
+
 export default class App {
   public server: express.Application;
 
@@ -19,6 +21,10 @@ export default class App {
 
   private userRoutes() {
     this.server.use("/api", userRouter);
+  }
+
+  private docsRoutes() {
+    this.server.use("/api/docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
   }
 
   private middlewares() {
