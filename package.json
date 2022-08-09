@@ -37,6 +37,7 @@
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-n": "^15.2.0",
     "eslint-plugin-promise": "^6.0.0",
+    "ts-node-dev": "^1.1.8",
     "typescript": "^4.5.4"
   }
 }
