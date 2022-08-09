@@ -6,22 +6,18 @@
 
 <ul>
   <li>NodeJS</li>
-  <p><code>sudo apt install nodejs</code></p>
   <br>
   <li>NPM</li>
-  <p><code>sudo apt install npm</code></p>
   <br>
   <li>Express</li>
-  <p><code>npm install express</code></p>
   <br>
   <li>CORS</li>
-  <p><code>npm install cors</code></p>
   <br>
   <li>dotenv</li>
-  <p><code>npm install dotenv</code></p>
   <br>
   <li>is-url</li>
-  <p><code>npm install is-url</code></p>
+  <br>
+  <li>TypeScript</li>
   <br>
 </ul>
 
@@ -34,7 +30,7 @@
 <h3>GIT</h3>
 <hr>
 
-<p>FAÇA O DOWNLOADS DO REPOSITORIO OU USE:<br><code>git@github.com:joaov1ct0r/url-shortener-microservice.git</code></p>
+<p>FAÇA O DOWNLOADS DOS ARQUIVOS OU USE SSH:<br><code>git pull git@github.com:joaov1ct0r/url-shortener-microservice.git</code></p>
 
 <h3>DEPENDENCIAS</h3>
 <hr>
@@ -53,6 +49,13 @@
 <h3>SERVER</h3>
 <hr>
 
-<p>APOS TER OS ARQUIVOS EM SUA MAQUINA INICIE O SERVIDOR WEB NO SEU TERMINAL COM O COMANDO:<br><code>npm start</code></p>
+<p>APOS TER OS ARQUIVOS EM SUA MAQUINA ESCOLHA O MODO EM QUE QUER RODAR O PROJETO:
+  <br>PRODUÇÃO: <code>npm run build</code>
+  <code>npm run start</code>
 
-<p>APOS ISSO A ROTA:<br><code>localhost:3000/api/shorturl</code><br>ESTARA DISPONIVEIS PARA FAZER AS REQUISIÇÕES</p>
+<br>DESENVOLVIMENTO: <code>npm run dev</code>
+
+</p>
+
+<p>APOS INICIAR O PROJETO EM SEU MODO PREFERIDO VA PARA A ROTA:<br><code>http://localhost:3000/api/docs</code>
+PARA VER AS ROTAS DISPONIVEIS PARA FAZER AS REQUISIÇÕES</p>
